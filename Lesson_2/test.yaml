@@ -1,0 +1,9 @@
+brand:
+- adidas
+- puma
+- nike
+dict:
+  1€: 1
+  2$: 2
+  3₽: 3
+number: 999

@@ -1,0 +1,18 @@
+
+""" GENERAL SETTINGS """
+DEFAULT_IP = '127.0.0.1'
+DEFAULT_PORT = 7777
+DEFAULT_USER = 'GUEST'
+MAX_CONNECTIONS = 2
+ENCODING = 'utf-8'
+MAX_PACKAGES = 1024
+
+""" JIM SETTINGS """
+ACTION = 'action'
+TIME = 'time'
+USER = 'user'
+RESPONSE = 'response'
+ERROR = 'error'
+ACCOUNT_NAME = 'account_name'
+PRESENCE = 'presence'
+

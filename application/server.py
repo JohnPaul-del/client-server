@@ -6,11 +6,12 @@ from logging import getLogger
 import application.log_config.server_log_config
 from common.utils import get_message, send_message
 from common.variables import *
-
+from decors import log
 
 LOGGER = getLogger('server')
 
 
+@log
 def controller(message_from_client):
     """
     Check the messages` protocol from client
@@ -30,6 +31,7 @@ def controller(message_from_client):
     }
 
 
+@log
 def start_server():
     """
     Starting the server

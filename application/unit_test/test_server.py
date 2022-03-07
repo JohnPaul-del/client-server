@@ -1,7 +1,9 @@
 import unittest
+import sys
 
-from application.server import controller
-from application.common.variables import RESPONSE, ERROR, ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME
+sys.path.append('..')
+from server import controller
+from common.variables import RESPONSE, ERROR, ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME
 
 
 class TestServerController(unittest.TestCase):

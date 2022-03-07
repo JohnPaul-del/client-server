@@ -22,7 +22,7 @@ format_msg = Formatter('%(asctime)s %(levelname)s %(filename)s '
 
 log_handler = logging.handlers.TimedRotatingFileHandler(
     app_path,
-    encoding=utf-8,
+    encoding='utf-8',
     backupCount=10,
     interval=1,
     when='D',

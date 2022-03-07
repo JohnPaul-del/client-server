@@ -1,7 +1,10 @@
+import sys
 import unittest
+import sys
 
-from application.client import create_message, get_response
-from application.common.variables import RESPONSE, ERROR, TIME, ACTION, PRESENCE, ACCOUNT_NAME, USER
+sys.path.append('..')
+from client import create_message, get_response
+from common.variables import RESPONSE, ERROR, TIME, ACTION, PRESENCE, ACCOUNT_NAME, USER
 
 
 class TestClient(unittest.TestCase):

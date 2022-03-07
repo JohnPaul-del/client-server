@@ -7,11 +7,12 @@ from logging import getLogger
 import application.log_config.client_log_config
 from common.utils import send_message, get_message
 from common.variables import *
-
+from decors import log
 
 LOGGER = getLogger('client')
 
 
+@log
 def create_message(account='guest'):
     """
     Creating the message for send to server.
@@ -30,6 +31,7 @@ def create_message(account='guest'):
     return message
 
 
+@log
 def get_response(server_response):
     """
     Read the server response and return status code

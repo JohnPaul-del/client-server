@@ -1,0 +1,28 @@
+2022-03-07 14:24:14,376 DEBUG client.py Create connection IP:Port - 127.0.0.1: 7777 
+ module: client function: start_client str_line: 82
+2022-03-07 14:24:14,376 DEBUG client.py Create connection IP:Port - 127.0.0.1: 7777 
+ module: client function: start_client str_line: 82
+2022-03-07 14:24:14,377 INFO client.py Message created: {'action': 'presence', 'time': 1646655854.3771877, 'user': {'account_name': 'guest'}} 
+ module: client function: create_message str_line: 30
+2022-03-07 14:24:14,377 INFO client.py Message created: {'action': 'presence', 'time': 1646655854.3771877, 'user': {'account_name': 'guest'}} 
+ module: client function: create_message str_line: 30
+2022-03-07 14:24:14,377 DEBUG decors.py Func name: create_message.Parameters: (), {}Module: __main__ 
+ module: decors function: log_save str_line: 17
+2022-03-07 14:24:14,377 DEBUG decors.py Func name: create_message.Parameters: (), {}Module: __main__ 
+ module: decors function: log_save str_line: 17
+2022-03-07 14:24:14,377 DEBUG client.py Create and send message: {'action': 'presence', 'time': 1646655854.3771877, 'user': {'account_name': 'guest'}} 
+ module: client function: start_client str_line: 86
+2022-03-07 14:24:14,377 DEBUG client.py Create and send message: {'action': 'presence', 'time': 1646655854.3771877, 'user': {'account_name': 'guest'}} 
+ module: client function: start_client str_line: 86
+2022-03-07 14:24:14,378 DEBUG decors.py Func name: controller.Parameters: ({'action': 'presence', 'time': 1646655854.3771877, 'user': {'account_name': 'guest'}},), {}Module: __main__ 
+ module: decors function: log_save str_line: 17
+2022-03-07 14:24:14,378 DEBUG decors.py Func name: controller.Parameters: ({'action': 'presence', 'time': 1646655854.3771877, 'user': {'account_name': 'guest'}},), {}Module: __main__ 
+ module: decors function: log_save str_line: 17
+2022-03-07 14:24:14,378 DEBUG client.py Server response: {'response': 200} 
+ module: client function: get_response str_line: 42
+2022-03-07 14:24:14,378 DEBUG client.py Server response: {'response': 200} 
+ module: client function: get_response str_line: 42
+2022-03-07 14:24:14,378 DEBUG decors.py Func name: get_response.Parameters: ({'response': 200},), {}Module: __main__ 
+ module: decors function: log_save str_line: 17
+2022-03-07 14:24:14,378 DEBUG decors.py Func name: get_response.Parameters: ({'response': 200},), {}Module: __main__ 
+ module: decors function: log_save str_line: 17

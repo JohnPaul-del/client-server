@@ -1,0 +1,16 @@
+2022-03-07 14:24:14,377 INFO server.py Client connection established on ('127.0.0.1', 32794) 
+ module: server function: start_server str_line: 72 
+2022-03-07 14:24:14,377 INFO server.py Client connection established on ('127.0.0.1', 32794) 
+ module: server function: start_server str_line: 72 
+2022-03-07 14:24:14,377 DEBUG server.py Message has been received: {'action': 'presence', 'time': 1646655854.3771877, 'user': {'account_name': 'guest'}} 
+ module: server function: start_server str_line: 75 
+2022-03-07 14:24:14,377 DEBUG server.py Message has been received: {'action': 'presence', 'time': 1646655854.3771877, 'user': {'account_name': 'guest'}} 
+ module: server function: start_server str_line: 75 
+2022-03-07 14:24:14,377 DEBUG server.py Check message from client: {'action': 'presence', 'time': 1646655854.3771877, 'user': {'account_name': 'guest'}} 
+ module: server function: controller str_line: 21 
+2022-03-07 14:24:14,377 DEBUG server.py Check message from client: {'action': 'presence', 'time': 1646655854.3771877, 'user': {'account_name': 'guest'}} 
+ module: server function: controller str_line: 21 
+2022-03-07 14:24:14,378 DEBUG server.py Response to client: {'response': 200} 
+ module: server function: start_server str_line: 79 
+2022-03-07 14:24:14,378 DEBUG server.py Response to client: {'response': 200} 
+ module: server function: start_server str_line: 79 
